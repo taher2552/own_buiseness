@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400&family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Dm Sans;
+}
+
+/* general css  */
+
+:root {
+  --mobile_academy_star_size: 25px;
+  --mobile_academy_small_star: 25px;
+  --mobile_academy_star_color: #dcdcdc;
+  --mobile_academy_star_background: #fc0;
+}
+
+.fb_flex,
+.fb_blue_flex,
+.fb_menu_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fb_font {
+  color: #222;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fb_container {
+  margin: 0 auto;
+  padding: 1rem 6.25rem;
+}
+
+/* main section  */
+
+.own_buiseness,
+.own_buiseness_2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: start;
+  margin: 1rem;
+  margin-top: 2rem;
+}
+
+.own_buiseness_2 {
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.email_img img {
+  border-radius: 50%;
+}
+
+.email_text p {
+  color: #222;
+  font-family: DM Sans;
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}
+
+.email_box {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0.3rem;
+  margin-bottom: 1.25rem;
+}
+
+.buiseness_right {
+  width: 50%;
+}
+
+.side_phone_img img {
+  width: 25rem;
+  height: 25rem;
+}
+
+.verify_buisenss {
+  font-family: DM Sans;
+  font-size: 2.1875rem;
+  margin-bottom: 0;
+  text-wrap: wrap;
+}
+
+.verify_otp {
+  color: #505050;
+  font-family: DM Sans;
+  font-size: 1.0625rem;
+}
+
+.verify_otp span {
+  font-weight: 600;
+  color: #fe5c4d;
+  cursor: pointer;
+}
+
+.buiseness_top p {
+  margin-bottom: 0.8rem;
+}
+
+.otp-cards {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.otp-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.otp-box {
+  width: 3.5rem;
+  height: 3rem;
+  border: 1px solid #dcdcdc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+.mob_otp_input {
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  width: 100%;
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.resend_otp p {
+  color: #fe5c4d;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+}
+
+.resend_otp {
+  margin-top: 0.94rem;
+  cursor: pointer;
+}
+
+.verify_btn {
+  border-radius: 0.3125rem;
+  background: #fe5c4d;
+  padding: 7px 15px;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid transparent;
+}
+
+.verify_btn:hover {
+  border-radius: 0.3125rem;
+  background: #fff;
+  color: #fe5c4d;
+  border: 1px solid #fe5c4d;
+  cursor: pointer;
+}
+
+.btn_verify {
+  margin-top: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.new_line {
+  height: 1px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #dcdcdc;
+  margin-bottom: 1.25rem;
+}
+
+.problem p {
+  color: #222;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+}
+
+.support_help p,
+.support_help_2 p {
+  cursor: pointer;
+  color: #fe5c4d;
+  font-family: DM Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+}
+.support_help_2 p {
+  font-weight: 500;
+}
+
+.support_help {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 2rem;
+}
+
+.buiseness_left {
+  border-radius: 0.625rem;
+  border: 1px solid var(--Border, #dcdcdc);
+  background: #fff;
+}
+
+.academy_pic img {
+  width: 542px;
+  height: 275px;
+  border-radius: 0.625rem;
+}
+
+.academy_pic {
+  position: relative;
+}
+
+.club_logo img {
+  width: 4.71613rem;
+  height: 5.60594rem;
+}
+
+.club_logo {
+  width: 10.5rem;
+  height: 10.5rem;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 65%;
+  left: 10%;
+  border: 1px solid #dcdcdc;
+}
+
+.buiseness_heading p {
+  font-family: DM Sans;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.buiseness_heading {
+  margin-top: 5.6rem;
+  margin-left: 10%;
+}
+
+.star_academy{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  gap:0.5rem;
+  margin-left:10%;
+}
+
+.total_star{
+  color: #505050;
+  font-family: DM Sans;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+}
+
+.total_review{
+  color: #505050;
+  font-family: DM Sans;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+}
+
+.mobile_academy_stars {
+  --mobile_academy_percent: calc(var(--star_rating) / 5 * 100%);
+  display: inline-block;
+  font-size: var(--mobile_academy_star_size);
+  font-family: Times;
+  line-height: 1;
+}
+
+.mobile_academy_stars_small {
+  --mobile_academy_percent: calc(var(--star_rating) / 5 * 100%);
+  display: inline-block;
+  font-size: var(--mobile_academy_small_star);
+  font-family: Times;
+  line-height: 1;
+}
+
+.mobile_academy_stars::before {
+  content: "★★★★★";
+  letter-spacing: 3px;
+  background: linear-gradient(
+    90deg,
+    var(--mobile_academy_star_background) var(--mobile_academy_percent),
+    var(--mobile_academy_star_color) var(--mobile_academy_percent)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.buiseness_address p{
+color:#505050;
+font-family: DM Sans;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.02563rem;
+text-transform: capitalize;
+}
+
+.buiseness_address{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1.25rem;
+}
+/* main section ends */

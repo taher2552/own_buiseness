@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="asset1/css/header_footer.css">
+    <link rel="stylesheet" href="asset1/css/buiseness.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- top most header  -->
+
+    <header class="fb_container fb_flex fb_header_1 ">
+        <div>
+            <img src="asset1/images/logo.svg" alt="Local image" loading="lazy" width="106" height="34">
+        </div>
+
+
+
+        <!-- search box  -->
+
+        <div class="fb_search_field" style="display:block">
+            <div class="input-group fb_search_input">
+
+
+                <input type="text" class="form-control fb_custom_search" aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-lg" placeholder="Search players, coach, acadmey..." />
+
+                <button type="submit" class="fb_search_btn">
+                    <img src="asset1/images/search.svg" alt="Local image" loading="lazy" width="15" height="15" />
+                </button>
+
+            </div>
+        </div>
+
+        <!-- search box ends  -->
+
+
+        <!-- another header which contains navbar menu and city  -->
+
+        <section class="fb_header_2" style="display: none;">
+
+            <div class="fb_nav_menu fb_font">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <!-- another header which contains navbar menu and city ends -->
+
+        <div class="fb_login">
+
+            <!-- <div class="fb_city_section" style="display: none;">
+
+                <div class="fb_club fb_city">
+                    <span class="fb_font">Select Your City</span>
+                    <img src="asset1/images/black-arrow.svg" alt="Local image" loading="lazy" width="14" height="14">
+                </div>
+            </div> -->
+
+            <div>
+                <button class="fb_login_btn fb_font">Login</button>
+            </div>
+
+
+        </div>
+
+
+    </header>
+
+    <!-- top most header ends -->
+
+    <!-- blue header starts  -->
+
+    <header class="fb_blue_container fb_blue_flex fb_header_blue fb_font">
+
+        <div>
+            <span class="fb_blue_home">Home</span>
+            <img src="asset1/images/white-arrow.svg" alt="Local image" loading="lazy" width="14" height="8">
+            <span class="fb_blue_home">Login To Manager</span>
+        </div>
+
+
+        <div class="fb_nav_option fb_font">
+            <ul class="fb_nav_ul">
+                <li class="fb_nav">Home</li>
+                <li class="fb_sports fb_nav">Sports</li>
+                <li class="fb_new_city fb_nav" id="selectedCity">City</li>
+                <li class="fb_nav">Blogs</li>
+                <li class="fb_nav">Competition</li>
+                <li class="fb_nav">Contact</li>
+                <li class="fb_nav">Register</li>
+            </ul>
+
+            <!-- sports pop up  -->
+
+            <div class="sports_div fb_font">
+                <ul class="fb_font">
+                    <li>Archery</li>
+                    <li>Arts</li>
+                    <li>athletics</li>
+                    <li>badminton</li>
+                    <!-- <li>Baseball</li> -->
+                    <li>basketball</li>
+                    <li>Billiards</li>
+                    <li>boxing</li>
+                    <li>chess</li>
+                    <li>cricket</li>
+                    <!-- <li>cycling</li> -->
+                    <li>Fencing</li>
+                    <li>football</li>
+                    <li>golf</li>
+                    <li>hockey</li>
+                    <!-- <li>judo </li> -->
+                    <li>Kabaddi </li>
+                    <li>karate</li>
+                    <li>Kho Kho</li>
+                    <!-- <li>kick boxing</li> -->
+                    <li>MMA</li>
+                    <li>Motor Sports</li>
+                    <li>shooting</li>
+                    <li>skating</li>
+                    <li>Squash</li>
+                    <li>swimming</li>
+                    <li>Table Tennis</li>
+                    <li>taekwondo</li>
+                    <li>tennis</li>
+                    <li>volleyball</li>
+                    <!-- <li>weight lifting</li> -->
+                    <li>wrestling</li>
+                </ul>
+            </div>
+
+            <!-- sports popup ends  -->
+
+            <!-- city popup  -->
+
+            <div class="city_div fb_font">
+                <div class="fb_city_search_container">
+                    <div class="fb_city_search_icon">
+                        <img src="asset1/images/search2.svg" loading="lazy" alt="Local image" width="16" height="16">
+                    </div>
+
+                    <input type="text" class="fb_city_search_input"
+                        placeholder="Search for your city by name or pin code">
+
+                </div>
+
+                <div class="fb_detect">
+                    <img src="asset1/images/detect.svg" loading="lazy" alt="Local image" width="18" height="18">
+                    <span class="fb_font">Detect my location</span>
+                </div>
+
+                <div>
+                    <div>
+                        <p class="fb_font fb_popular">Popular Cities</p>
+                    </div>
+
+
+                    <div class="fb_city_img">
+                        <img src="asset1/images/mumbai.png" alt="Local image" loading="lazy" width="86" height="86">
+                        <img src="asset1/images/delhi-ncr.png" alt="Local image" loading="lazy" width="86" height="86">
+                        <img src="asset1/images/begaluru.png" alt="Local image" loading="lazy" width="86" height="86">
+                        <img src="asset1/images/hyderababd.png" alt="Local image" loading="lazy" width="86" height="86">
+                        <img src="asset1/images/ahmedabad.png" alt="Local image" loading="lazy" width="86" height="86">
+                        <img src="asset1/images/chandigarh.png" alt="Local image" loading="lazy" width="86" height="86">
+                        <img src="asset1/images/chennai.png" alt="Local image" loading="lazy" width="86" height="86">
+                        <img src="asset1/images/pune.png" alt="Local image" loading="lazy" width="86" height="86">
+                        <img src="asset1/images/kolkata.png" alt="Local image" loading="lazy" width="86" height="86">
+                        <img src="asset1/images/kochi.png" alt="Local image" loading="lazy" width="86" height="86">
+                    </div>
+
+                    <div>
+                        <span class="fb_font fb_all_cities">View All Cities</span>
+                    </div>
+
+
+                    <div class="city_list_div fb_font">
+                        <ul class="fb_font">
+                            <li>Agra</li>
+                            <li>Ahmedabad</li>
+                            <li>Ajmer</li>
+                            <li>Allahabad</li>
+                            <li>Amravati</li>
+                            <li>Amritsar</li>
+                            <li>Aurangabad</li>
+                            <li>Bangalore</li>
+                            <li>Bhilai</li>
+                            <li>Bhopal</li>
+                            <li>Bhubaneswar</li>
+                            <li>Bikaner</li>
+                            <li>Chandigarh</li>
+                            <li>Chennai</li>
+                            <li>Coimbatore</li>
+                            <li>Delhi</li>
+                            <li>Dehradun</li>
+                            <li>Dhule</li>
+                            <li>Etawah</li>
+                            <li>Farrukhabad</li>
+                            <li>Firozabad</li>
+                            <li>Ghaziabad</li>
+                            <li>Goa</li>
+                            <li>Guntur</li>
+                            <li>Gurgaon</li>
+                            <li>Gwalior</li>
+                            <li>Guwahati</li>
+                            <li>Hisar</li>
+                            <li>Hyderabad</li>
+                            <li>Indore</li>
+                            <li>Jalandhar</li>
+                            <li>Jamshedpur</li>
+                            <li>Jhansi</li>
+                            <li>Jodhpur</li>
+                            <li>Kadapa</li>
+                            <li>Kakinada</li>
+                            <li>Kanpur</li>
+                            <li>Kochi</li>
+                            <li>Kolkata</li>
+                            <li>Kollam</li>
+                            <li>Kottayam</li>
+                            <li>Kurnool</li>
+                            <li>Lucknow</li>
+                            <li>Ludhiana</li>
+                            <li>Madurai</li>
+                            <li>Mangalore</li>
+                            <li>Mathura</li>
+                            <li>Moradabad</li>
+                            <li>Mumbai</li>
+                            <li>Muzaffarnagar</li>
+                            <li>Mysore</li>
+                            <li>Nagpur</li>
+                            <li>Nashik</li>
+                            <li>Noida</li>
+                            <li>Panipat</li>
+                            <li>Parbhani</li>
+                            <li>Patna</li>
+                            <li>Pune</li>
+                            <li>Raipur</li>
+                            <li>Rajahmundry</li>
+                            <li>Rajkot</li>
+                            <li>Ramagundam</li>
+                            <li>Ranchi</li>
+                            <li>Ratlam</li>
+                            <li>Raurkela</li>
+                            <li>Saharanpur</li>
+                            <li>Shimla</li>
+                            <li>Solapur</li>
+                            <li>Surat</li>
+                            <li>Tiruchirappalli</li>
+                            <li>Tirupati</li>
+                            <li>Tiruppur</li>
+                            <li>Thanjavur</li>
+                            <li>Thane</li>
+                            <li>Trivandrum</li>
+                            <li>Udaipur</li>
+                            <li>Vadodara</li>
+                            <li>Varanasi</li>
+                            <li>Visakhapatnam</li>
+                            <li>Vijayawada</li>
+                            <li>Warangal</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- city popup ends  -->
+        </div>
+
+    </header>
+
+    <!-- blue header ends -->
+
+    <!-- main section  -->
+
+    <section class="own_buiseness_2">
+        <div class="buiseness_left">
+            <div class="academy_pic">
+                <img src="asset1/images/academy_pic.png" alt="loading">
+
+                <div class="club_logo">
+                    <img src="asset1/images/club_logo.png" alt="loading">
+                </div>
+            </div>
+
+            <div class="buiseness_heading">
+                <p class="fb_font">Kuljeet Football Academy</p>
+            </div>
+
+            <div class="star_academy">
+                <span class="total_star">4</span>
+                <div class="mobile_academy_stars" style="--star_rating: 4"
+                    aria-label="Rating of this product is 4 out of 5."></div>
+                <span class="total_review">(50)</span>
+            </div>
+
+            <div class="buiseness_address">
+                <p class="fb_font">BS37, Footdball Grond, Amritsar, India, Punjab region</p>
+            </div>
+        </div>
+
+        <div class="buiseness_right">
+            <div class="buiseness_top">
+                <p class="fb_font verify_buisenss">Manage this business to reply to reviews, update info and more</p>
+            </div>
+
+            <div class="email_box">
+                <div class="email_img">
+                    <img src="asset1/images/email_img.png" alt="loading" loading="lazy" width="28" height="28">
+                </div>
+
+                <div class="email_text">
+                    <p class="fb_font">vinay.chopra@rpsg.in</p>
+                </div>
+            </div>
+
+
+            <div class="buiseness_top">
+                <p class="fb_font verify_otp">By continuing, you’re agreeing to the <span>Terms of Service</span> and
+                    <span>Privacy Policy</span>
+                </p>
+            </div>
+
+
+
+
+
+            <div class="btn_verify">
+                <buttton class="fb_font verify_btn">Manage Now</buttton>
+            </div>
+
+            <div class="support_help_2">
+                <p class="fb_font">I own or manage other business</p>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <!-- main section ends -->
+
+
+
+
+    <!-- footer section starts here  -->
+
+    <footer>
+
+        <div class="fb_footer">
+
+            <div class="fb_footer_first">
+
+                <img src="asset1/images/logo.svg" alt="Local image" loading="lazy" width="106" height="34">
+
+                <span class="fb_font fb_unlock">Unlock your potential and connect with your dream clubs today! Join and
+                    showcase
+                    your
+                    talent to a world of opportunities. Empower your athletic journey and take the first step towards
+                    realizing your dreams. Start creating your profile now!"</span>
+
+                <div>
+                    <a href="#"><img src="asset1/images/instagram.png" alt="Local image" loading="lazy" class="fb_insta"
+                            width="28" height="28"></a>
+                    <a href="#"> <img src="asset1/images/linkedin.png" alt="Local image" loading="lazy" width="28"
+                            height="28"></a>
+
+                </div>
+
+            </div>
+
+            <div class="fb_footer_two">
+
+                <span class="fb_font">Quick Links</span>
+
+                <div class="fb_links">
+                    <ul class="fb_font">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Blogs</a>
+                        </li>
+                        <li>
+                            <a href="#">Tournament</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms & Condition</a>
+                        </li>
+                        <li>
+                            <a href="#">Support Center</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="fb_footer_two">
+
+                <span class="fb_font">Who’s it for</span>
+
+                <div class="fb_links">
+                    <ul class="fb_font">
+                        <li>
+                            <a href="#">Players</a>
+                        </li>
+                        <li>
+                            <a href="#">Organizers & Teams</a>
+                        </li>
+                        <li>
+                            <a href="#">Clubs & Leagues</a>
+                        </li>
+                        <li>
+                            <a href="#">Governing Bodies</a>
+                        </li>
+                        <li>
+                            <a href="#">Football Coaches</a>
+                        </li>
+                        <li>
+                            <a href="#">Uni’s & Colleges</a>
+                        </li>
+                        <li>
+                            <a href="#">Businesses</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="fb_footer_two">
+
+                <span class="fb_font">get in touch</span>
+
+                <div class="fb_footer_add">
+                    <span>BookMyPlayer Pvt Ltd</span>
+                    <span>1204, Palm Square. Golf Course Ext Road,</span>
+                    <span>Gurgaon. Haryana. India 122018</span>
+                </div>
+
+                <div class="fb_mail_flex">
+                    <div>
+                        <img src="asset1/images/mail.svg" alt="Local image" loading="lazy" width="26" height="26">
+                    </div>
+                    <div class="fb_font fb_mail">care@bookmyplayer.com</div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="fb_footer_bottom">
+            <div class="">Copyright © 2023 BookMyPlayer. All rights reserved.</div>
+        </div>
+
+    </footer>
+
+
+    <!-- footer section ends here  -->
+
+
+
+</body>
+
+<script src="asset1/js/menu.js"></script>
+
+</html>
